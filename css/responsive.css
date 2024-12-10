@@ -1,4 +1,23 @@
 /* Soluzione qui */
+
+/* bonus section  */
+@media screen and (min-width:576px) {
+    .presentation img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .btn {
+        padding-inline: 40px;
+    }
+
+    .social-networks {
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+}
+
 @media screen and (min-width:768px) {
     #topbar {
         justify-content: flex-start;
