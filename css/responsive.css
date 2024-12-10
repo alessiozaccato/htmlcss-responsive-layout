@@ -13,7 +13,7 @@
     }
 
     .recipe-title {
-        width: 100%;
+        font-size: 20px;
     }
 
     .quick-notes ul {
@@ -41,5 +41,42 @@
     .presentation img {
         float: left;
         margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .recipe-title {
+        font-size: 30px;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-basis: 70%;
+    }
+
+    .recipe-info {
+        flex-basis: 30%;
+    }
+
+    .recipe-video {
+        height: 30vw;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
