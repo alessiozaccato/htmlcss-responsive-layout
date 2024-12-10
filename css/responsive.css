@@ -25,4 +25,21 @@
         flex-basis: calc(100% / 3 - 15px);
     }
 
+    .social-networks {
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    .btn {
+        padding-inline: 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 10px;
+    }
 }
